@@ -19,7 +19,7 @@ pretty.install()
 CON=sol()
 
 #------------------[ USER-AGENT ]-------------------#
-ua = ["Mozilla/5.0 (Linux; Android 10; STK-L22 Build/HUAWEISTK-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/277.0.0.12.116;]",]
+ua = ["Mozilla/5.0 (Linux; Android 10; STK-L21 Build/HUAWEISTK-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/259.0.0.36.115;]",]
 
 ugen2=[]
 ugen=[]
@@ -177,29 +177,23 @@ def animation(u):
 #------------------[ LOGO-LAKNAT ]-----------------#
 
 logo =""" 
- ___      ___       __      _____  ___        __        ________  
-|"  \    /"  |     /""\    (\"   \|"  \      /""\      /"       ) 
- \   \  //   |    /    \   |.\\   \    |    /    \    (:   \___/  
- /\\  \/.    |   /' /\  \  |: \.   \\  |   /' /\  \    \___  \    
-|: \.        |  //  __'  \ |.  \    \. |  //  __'  \    __/  \\   
-|.  \    /:  | /   /  \\  \|    \    \ | /   /  \\  \  /" \   :)  
-|___|\__/|___|(___/    \___)\___|\____\)(___/    \___)(_______/   
+███╗   ███╗ █████╗ ███╗   ██╗ █████╗ ███████╗    
+████╗ ████║██╔══██╗████╗  ██║██╔══██╗██╔════╝    
+██╔████╔██║███████║██╔██╗ ██║███████║███████╗    
+██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║╚════██║    
+██║ ╚═╝ ██║██║  ██║██║ ╚████║██║  ██║███████║    
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    
 -------------------------------------------------
   OWNER       :  MANAS TAMANG
-  VERSION     :  PERSONAL 
+  VERSION     :  FRE 
   GITHUB      : NOT AVAILABLE    
-  version.    : 1.0
+  version     : 1.0
+  Country    : NEPAL
 ------------------------------------------------
- MAILE NI GARETHE HUSTLE JINGADI BUJHDAI THE VAKHAR
- GARETHE SABAI LAI KADAR MERO BHAWANAA KO 
- GARDIYO MURDER
+ HAVE A GOOD DAY ❤️
 ------------------------------------------------"""
 os.system('clear')
 print(logo)
-uname = input(" [\u001b[36m•\033[1;37m] ENTER YOUR NAME : " )
-print('\033[1;37m----------------------------------------------')
-animation(' >> YOUR NAME HAS BEEN CHANGED ')
-pass
 
 #------------------[ APPROVAL SYSTEM ]-------------------#
 
@@ -261,21 +255,17 @@ def menu():
     print(f" [\u001b[36m•\033[1;37m] WELCOME     : {uname} ")
     print(" [\u001b[36m•\033[1;37m] TODAYS DATE : "+date)
     linex()
-    print(f""" [\u001b[36m1\033[1;37m] CRACK PUBLIC """)
     print(f""" [\u001b[36m2\033[1;37m] CRACK FILE         """)
     print(""" [\u001b[36m3\033[1;37m] CONTACT ADMIN""")
     print(f""" [\u001b[36m4\033[1;37m] CHECK RESULTS   """)
     print(""" [\u001b[36m0\033[1;37m] LOGOUT MENU""")
     linex()
     _____cowok__pink_____ = input(' CHOOSE : ')
-    if _____cowok__pink_____ in ['1']:
-        login()
-        dump_massal()
-    elif _____cowok__pink_____ in ['2']:
+    elif _____cowok__pink_____ in ['1']:
         crack_file()
-    elif _____cowok__pink_____ in ['3','03']:
+    elif _____cowok__pink_____ in ['2','02']:
         contact()
-    elif _____cowok__pink_____ in ['4','04']:
+    elif _____cowok__pink_____ in ['3','03']:
         result()
     elif _____cowok__pink_____ in ['0']:
         os.system('rm -rf .token.txt')
