@@ -255,17 +255,21 @@ def menu():
     print(f" [\u001b[36m•\033[1;37m] WELCOME     : {uname} ")
     print(" [\u001b[36m•\033[1;37m] TODAYS DATE : "+date)
     linex()
+    print(f""" [\u001b[36m1\033[1;37m] CRACK PUBLIC """)
     print(f""" [\u001b[36m2\033[1;37m] CRACK FILE         """)
     print(""" [\u001b[36m3\033[1;37m] CONTACT ADMIN""")
     print(f""" [\u001b[36m4\033[1;37m] CHECK RESULTS   """)
     print(""" [\u001b[36m0\033[1;37m] LOGOUT MENU""")
     linex()
     _____cowok__pink_____ = input(' CHOOSE : ')
-    elif _____cowok__pink_____ in ['1']:
+    if _____cowok__pink_____ in ['1']:
+        login()
+        dump_massal()
+    elif _____cowok__pink_____ in ['2']:
         crack_file()
-    elif _____cowok__pink_____ in ['2','02']:
-        contact()
     elif _____cowok__pink_____ in ['3','03']:
+        contact()
+    elif _____cowok__pink_____ in ['4','04']:
         result()
     elif _____cowok__pink_____ in ['0']:
         os.system('rm -rf .token.txt')
